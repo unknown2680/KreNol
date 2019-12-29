@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="30dp">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:columnCount="3">
+
+        <ImageButton
+            android:id="@+id/ib1"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+        <ImageButton
+            android:id="@+id/ib2"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+        <ImageButton
+            android:id="@+id/ib3"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+        <ImageButton
+            android:id="@+id/ib4"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+        <ImageButton
+            android:id="@+id/ib5"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+        <ImageButton
+            android:id="@+id/ib6"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+        <ImageButton
+            android:id="@+id/ib7"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+        <ImageButton
+            android:id="@+id/ib8"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+        <ImageButton
+            android:id="@+id/ib9"
+            android:src="@drawable/ic_blank_black"
+            android:contentDescription="@string/buttonDescription"/>
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_margin="20sp"
+        android:gravity="center_horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/currentPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/titleSize" />
+    </LinearLayout>
+
+</LinearLayout>
